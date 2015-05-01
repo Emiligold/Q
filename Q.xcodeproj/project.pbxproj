@@ -21,6 +21,22 @@
 		9E0289521AE6CBD600D2345D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0289341AE6CBD600D2345D /* UIKit.framework */; };
 		9E02895A1AE6CBD600D2345D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E0289581AE6CBD600D2345D /* InfoPlist.strings */; };
 		9E02895C1AE6CBD600D2345D /* QTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E02895B1AE6CBD600D2345D /* QTests.m */; };
+		9E0289661AE6DEC200D2345D /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0289651AE6DEC200D2345D /* FacebookSDK.framework */; };
+		9E02896C1AE6E6CF00D2345D /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E02896B1AE6E6CF00D2345D /* DBManager.m */; };
+		9E0289731AE6E84500D2345D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0289721AE6E84500D2345D /* User.m */; };
+		9E0289781AE6E8EC00D2345D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0289771AE6E8EC00D2345D /* libsqlite3.dylib */; };
+		9E02897C1AE7842A00D2345D /* DBServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E02897B1AE7842A00D2345D /* DBServices.m */; };
+		9E0289CA1AE7A2E200D2345D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0289C91AE7A2E200D2345D /* MapKit.framework */; };
+		9E0289CD1AE7D2D800D2345D /* SkipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0289CC1AE7D2D800D2345D /* SkipView.m */; };
+		9E0289D31AE7ECE400D2345D /* MainQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0289D21AE7ECE400D2345D /* MainQ.m */; };
+		9E0289D61AE8020600D2345D /* FacebookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0289D51AE8020600D2345D /* FacebookManager.m */; };
+		9E0289D81AE81ABE00D2345D /* Image003.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E0289D71AE81ABE00D2345D /* Image003.png */; };
+		9E0289DB1AE8212300D2345D /* PhoneNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0289DA1AE8212300D2345D /* PhoneNumberView.m */; };
+		9E99D9951AEA6A090061F92F /* Image003.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E99D9941AEA6A090061F92F /* Image003.png */; };
+		9E99D9981AEBC1960061F92F /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E99D9971AEBC1960061F92F /* Queue.m */; };
+		9E99D99B1AEBC32D0061F92F /* DateHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E99D99A1AEBC32D0061F92F /* DateHandler.m */; };
+		9E99D99E1AEBC46C0061F92F /* LikeQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E99D99D1AEBC46C0061F92F /* LikeQueue.m */; };
+		9E99D9A11AEBC50E0061F92F /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E99D9A01AEBC50E0061F92F /* Comment.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +69,34 @@
 		9E0289571AE6CBD600D2345D /* QTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QTests-Info.plist"; sourceTree = "<group>"; };
 		9E0289591AE6CBD600D2345D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9E02895B1AE6CBD600D2345D /* QTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTests.m; sourceTree = "<group>"; };
+		9E0289651AE6DEC200D2345D /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../FacebookSDK.framework; sourceTree = "<group>"; };
+		9E02896A1AE6E6CF00D2345D /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		9E02896B1AE6E6CF00D2345D /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		9E0289711AE6E84500D2345D /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		9E0289721AE6E84500D2345D /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		9E0289741AE6E86300D2345D /* AbstractEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractEntity.h; sourceTree = "<group>"; };
+		9E0289771AE6E8EC00D2345D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		9E02897A1AE7842A00D2345D /* DBServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBServices.h; sourceTree = "<group>"; };
+		9E02897B1AE7842A00D2345D /* DBServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBServices.m; sourceTree = "<group>"; };
+		9E0289C91AE7A2E200D2345D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9E0289CB1AE7D2D800D2345D /* SkipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkipView.h; sourceTree = "<group>"; };
+		9E0289CC1AE7D2D800D2345D /* SkipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkipView.m; sourceTree = "<group>"; };
+		9E0289D11AE7ECE400D2345D /* MainQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainQ.h; sourceTree = "<group>"; };
+		9E0289D21AE7ECE400D2345D /* MainQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainQ.m; sourceTree = "<group>"; };
+		9E0289D41AE8020600D2345D /* FacebookManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookManager.h; sourceTree = "<group>"; };
+		9E0289D51AE8020600D2345D /* FacebookManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookManager.m; sourceTree = "<group>"; };
+		9E0289D71AE81ABE00D2345D /* Image003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Image003.png; path = ../../Image003.png; sourceTree = "<group>"; };
+		9E0289D91AE8212300D2345D /* PhoneNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNumberView.h; sourceTree = "<group>"; };
+		9E0289DA1AE8212300D2345D /* PhoneNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneNumberView.m; sourceTree = "<group>"; };
+		9E99D9941AEA6A090061F92F /* Image003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Image003.png; path = ../../Image003.png; sourceTree = "<group>"; };
+		9E99D9961AEBC1960061F92F /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		9E99D9971AEBC1960061F92F /* Queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
+		9E99D9991AEBC32D0061F92F /* DateHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateHandler.h; sourceTree = "<group>"; };
+		9E99D99A1AEBC32D0061F92F /* DateHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateHandler.m; sourceTree = "<group>"; };
+		9E99D99C1AEBC46C0061F92F /* LikeQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LikeQueue.h; sourceTree = "<group>"; };
+		9E99D99D1AEBC46C0061F92F /* LikeQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LikeQueue.m; sourceTree = "<group>"; };
+		9E99D99F1AEBC50E0061F92F /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
+		9E99D9A01AEBC50E0061F92F /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +104,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E0289781AE6E8EC00D2345D /* libsqlite3.dylib in Frameworks */,
 				9E0289331AE6CBD600D2345D /* CoreGraphics.framework in Frameworks */,
+				9E0289661AE6DEC200D2345D /* FacebookSDK.framework in Frameworks */,
 				9E0289351AE6CBD600D2345D /* UIKit.framework in Frameworks */,
+				9E0289CA1AE7A2E200D2345D /* MapKit.framework in Frameworks */,
 				9E0289311AE6CBD600D2345D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +148,9 @@
 		9E02892F1AE6CBD600D2345D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9E0289C91AE7A2E200D2345D /* MapKit.framework */,
+				9E0289771AE6E8EC00D2345D /* libsqlite3.dylib */,
+				9E0289651AE6DEC200D2345D /* FacebookSDK.framework */,
 				9E0289301AE6CBD600D2345D /* Foundation.framework */,
 				9E0289321AE6CBD600D2345D /* CoreGraphics.framework */,
 				9E0289341AE6CBD600D2345D /* UIKit.framework */,
@@ -112,13 +162,27 @@
 		9E0289361AE6CBD600D2345D /* Q */ = {
 			isa = PBXGroup;
 			children = (
+				9E99D9941AEA6A090061F92F /* Image003.png */,
+				9E0289791AE7841100D2345D /* DB */,
+				9E0289701AE6E83900D2345D /* Entities */,
 				9E02893F1AE6CBD600D2345D /* AppDelegate.h */,
 				9E0289401AE6CBD600D2345D /* AppDelegate.m */,
 				9E0289421AE6CBD600D2345D /* Main.storyboard */,
 				9E0289451AE6CBD600D2345D /* ViewController.h */,
 				9E0289461AE6CBD600D2345D /* ViewController.m */,
+				9E0289D71AE81ABE00D2345D /* Image003.png */,
 				9E0289481AE6CBD600D2345D /* Images.xcassets */,
 				9E0289371AE6CBD600D2345D /* Supporting Files */,
+				9E0289CB1AE7D2D800D2345D /* SkipView.h */,
+				9E0289CC1AE7D2D800D2345D /* SkipView.m */,
+				9E0289D11AE7ECE400D2345D /* MainQ.h */,
+				9E0289D21AE7ECE400D2345D /* MainQ.m */,
+				9E0289D41AE8020600D2345D /* FacebookManager.h */,
+				9E0289D51AE8020600D2345D /* FacebookManager.m */,
+				9E0289D91AE8212300D2345D /* PhoneNumberView.h */,
+				9E0289DA1AE8212300D2345D /* PhoneNumberView.m */,
+				9E99D9991AEBC32D0061F92F /* DateHandler.h */,
+				9E99D99A1AEBC32D0061F92F /* DateHandler.m */,
 			);
 			path = Q;
 			sourceTree = "<group>";
@@ -150,6 +214,33 @@
 				9E0289581AE6CBD600D2345D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E0289701AE6E83900D2345D /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				9E0289711AE6E84500D2345D /* User.h */,
+				9E0289721AE6E84500D2345D /* User.m */,
+				9E0289741AE6E86300D2345D /* AbstractEntity.h */,
+				9E99D9961AEBC1960061F92F /* Queue.h */,
+				9E99D9971AEBC1960061F92F /* Queue.m */,
+				9E99D99C1AEBC46C0061F92F /* LikeQueue.h */,
+				9E99D99D1AEBC46C0061F92F /* LikeQueue.m */,
+				9E99D99F1AEBC50E0061F92F /* Comment.h */,
+				9E99D9A01AEBC50E0061F92F /* Comment.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		9E0289791AE7841100D2345D /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				9E02896A1AE6E6CF00D2345D /* DBManager.h */,
+				9E02896B1AE6E6CF00D2345D /* DBManager.m */,
+				9E02897A1AE7842A00D2345D /* DBServices.h */,
+				9E02897B1AE7842A00D2345D /* DBServices.m */,
+			);
+			name = DB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +290,13 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Noga badhav";
 				TargetAttributes = {
+					9E02892C1AE6CBD600D2345D = {
+						SystemCapabilities = {
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					9E02894D1AE6CBD600D2345D = {
 						TestTargetID = 9E02892C1AE6CBD600D2345D;
 					};
@@ -228,6 +326,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E0289D81AE81ABE00D2345D /* Image003.png in Resources */,
+				9E99D9951AEA6A090061F92F /* Image003.png in Resources */,
 				9E0289491AE6CBD600D2345D /* Images.xcassets in Resources */,
 				9E02893B1AE6CBD600D2345D /* InfoPlist.strings in Resources */,
 				9E0289441AE6CBD600D2345D /* Main.storyboard in Resources */,
@@ -249,9 +349,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E99D99B1AEBC32D0061F92F /* DateHandler.m in Sources */,
+				9E0289D31AE7ECE400D2345D /* MainQ.m in Sources */,
 				9E0289471AE6CBD600D2345D /* ViewController.m in Sources */,
+				9E0289DB1AE8212300D2345D /* PhoneNumberView.m in Sources */,
+				9E0289731AE6E84500D2345D /* User.m in Sources */,
+				9E02897C1AE7842A00D2345D /* DBServices.m in Sources */,
+				9E99D9981AEBC1960061F92F /* Queue.m in Sources */,
+				9E99D9A11AEBC50E0061F92F /* Comment.m in Sources */,
 				9E0289411AE6CBD600D2345D /* AppDelegate.m in Sources */,
 				9E02893D1AE6CBD600D2345D /* main.m in Sources */,
+				9E99D99E1AEBC46C0061F92F /* LikeQueue.m in Sources */,
+				9E02896C1AE6E6CF00D2345D /* DBManager.m in Sources */,
+				9E0289D61AE8020600D2345D /* FacebookManager.m in Sources */,
+				9E0289CD1AE7D2D800D2345D /* SkipView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +487,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/nogabadhav/Desktop,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Q/Q-Prefix.pch";
 				INFOPLIST_FILE = "Q/Q-Info.plist";
@@ -389,6 +504,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/nogabadhav/Desktop,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Q/Q-Prefix.pch";
 				INFOPLIST_FILE = "Q/Q-Info.plist";
@@ -456,6 +575,7 @@
 				9E0289611AE6CBD600D2345D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E0289621AE6CBD600D2345D /* Build configuration list for PBXNativeTarget "QTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +584,7 @@
 				9E0289641AE6CBD600D2345D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

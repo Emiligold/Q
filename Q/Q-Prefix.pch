@@ -14,3 +14,9 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+#define dbName @"Q.sql"
+#define tUsers @"USERS"
+#define tQueues @"QUEUES"
+#define tLikeQueue @"LIKES_QUEUES"
+#define tComment @"COMMENTS"

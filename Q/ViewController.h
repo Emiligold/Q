@@ -7,7 +7,26 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <FacebookSDK/FacebookSDK.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <FBLoginViewDelegate, UIGestureRecognizerDelegate>
+
+@property (strong, nonatomic) IBOutlet FBLoginView *loginView;
+
+@property (weak, nonatomic) IBOutlet UIButton *skipButton;
+
+- (IBAction)connectFacebookClicked:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UIButton *connectFacebook;
+
+@property (weak, nonatomic) IBOutlet UIView *skipContainer;
+
+- (IBAction)tapped:(id)sender;
+
+-(void)skipViewExitClicked;
+
+@property (weak, nonatomic) IBOutlet UIImageView *image;
+
+-(void)continueClicked:(id)sender;
 
 @end
